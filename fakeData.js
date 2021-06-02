@@ -108,46 +108,55 @@ const fakeData = [
 
   {
     id: 5,
-    title: "",
-    author: "",
-    imageLink: "",
+    title: "Introduction to Algorithms",
+    author:
+      "Thomas H.. Cormen, Thomas H Cormen, Charles E Leiserson, Ronald L Rivest, Clifford Stein",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=NLngYyWFl_YC&printsec=frontcover&img=1&zoom=1&h=640",
 
-    link: "",
-    pages: 0,
-    description: "",
+    link: "https://books.google.com.bd/books?id=NLngYyWFl_YC&source=gbs_navlinks_s",
+    pages: 1180,
+    description:
+      "The first edition won the award for Best 1990 Professional and Scholarly Book in Computer Science and Data Processing by the Association of American Publishers.There are books on algorithms that are rigorous but incomplete and others that cover masses of material but lack rigor. Introduction to Algorithms combines rigor and comprehensiveness.The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.The first edition became the standard reference for professionals and a widely used text in universities worldwide. The second edition features new chapters on the role of algorithms, probabilistic analysis and randomized algorithms, and linear programming, as well as extensive revisions to virtually every section of the book. In a subtle but important change, loop invariants are introduced early and used throughout the text to prove algorithm correctness. Without changing the mathematical and analytic focus, the authors have moved much of the mathematical foundations material from Part I to an appendix and have included additional motivational material at the beginning.",
     reviews: [
       {
-        name: "User review",
+        name: "IvanIdris - LibraryThing",
         rating: 5,
-        review: "",
+        review:
+          "This book is like an encyclopedia of algorithms. The algorithms are presented with pseudo code so it doesn’t matter what your favorite programming language is. A very rigorous mathematical approach is used for the analysis of for instance performance",
       },
       {
         name: "User review",
         rating: 5,
-        review: "",
+        review:
+          "It is a fantastic book for those, who want to learn algorithms from scratch. This book consist a good explanation of all data structures which are fundamental and are also very important to understand to get a fruitful idea about algorithms.",
       },
     ],
   },
 
   {
     id: 6,
-    title: "",
-    author: "",
-    imageLink: "",
+    title: "Design Patterns: Elements of Reusable Object-Oriented Software",
+    author: "Erich Gamma",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=K4qv1D-LKhoC&printsec=frontcover&img=1&zoom=1&h=640",
 
-    link: "",
-    pages: 0,
-    description: "",
+    link: "https://books.google.com.bd/books?id=K4qv1D-LKhoC&source=gbs_navlinks_s",
+    pages: 395,
+    description:
+      "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
     reviews: [
       {
-        name: "User review",
+        name: "scottjpearson - LibraryThing",
         rating: 5,
-        review: "",
+        review:
+          "A classic in the field of computer science, this book describes how object-oriented software can be used to develop meaningful (and reusable) classes. It is written by the so-called 'gang of four'",
       },
       {
-        name: "User review",
+        name: "James.Igoe - LibraryThing",
         rating: 5,
-        review: "",
+        review:
+          "Depending on on how you think of programming, this book could be incredibly insightful, or horribly abstract and impractical. Since I prefer and tend to think in patterns and abstractions, I found",
       },
     ],
   },
