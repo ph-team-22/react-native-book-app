@@ -1,6 +1,7 @@
 const fakeData = [
   {
     id: 1,
+    category: "Software Engineering",
     title: "Clean Code",
     author: "Robert Cecil Martin",
     imageLink:
@@ -27,6 +28,7 @@ const fakeData = [
 
   {
     id: 2,
+    category: "Software Engineering",
     title: "The pragmatic programmer",
     author: "Andrew Hunt, David Thomas",
     imageLink:
@@ -54,6 +56,7 @@ const fakeData = [
 
   {
     id: 3,
+    category: "Programming",
     title: "Code Complete",
     author: " Steve McConnell",
     imageLink:
@@ -81,6 +84,7 @@ const fakeData = [
 
   {
     id: 4,
+    category: "Software Engineering",
     title: "Refactoring: Improving the Design of Existing Code",
     author: "Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts",
     imageLink:
@@ -108,6 +112,7 @@ const fakeData = [
 
   {
     id: 5,
+    category: "Data Structure & Algorithms",
     title: "Introduction to Algorithms",
     author:
       "Thomas H.. Cormen, Thomas H Cormen, Charles E Leiserson, Ronald L Rivest, Clifford Stein",
@@ -136,6 +141,7 @@ const fakeData = [
 
   {
     id: 6,
+    category: "OOP Programming",
     title: "Design Patterns: Elements of Reusable Object-Oriented Software",
     author: "Erich Gamma",
     imageLink:
@@ -163,6 +169,7 @@ const fakeData = [
 
   {
     id: 7,
+    category: "C Programming",
     title: "The C Programming Language",
     author: " Brian W. Kernighan, Dennis M. Ritchie",
     imageLink:
@@ -184,6 +191,7 @@ const fakeData = [
 
   {
     id: 8,
+    category: "JavaScript",
     title: "Eloquent JavaScript: A Modern Introduction to Programming",
     author: "Marijn Haverbeke",
     imageLink:
@@ -211,6 +219,7 @@ const fakeData = [
 
   {
     id: 9,
+    category: "Programming",
     title: "Programming Pearls",
     author: "Jon Bentley",
     imageLink:
@@ -225,6 +234,7 @@ const fakeData = [
 
   {
     id: 10,
+    category: "Software Engineering",
     title: "Code: The Hidden Language of Computer Hardware and Software",
     author: "Charles Petzold",
     imageLink:
@@ -252,6 +262,7 @@ const fakeData = [
 
   {
     id: 11,
+    category: "Software Engineering",
     title: "Design Patterns: Elements of Reusable Object-Oriented Software",
     author: "Erich Gamma",
     imageLink:
@@ -279,6 +290,7 @@ const fakeData = [
 
   {
     id: 12,
+    category: "Python",
     title:
       "Automate the Boring Stuff with Python, 2nd Edition: Practical Programming for Total Beginners",
     author: "Al Sweigart",
@@ -289,6 +301,223 @@ const fakeData = [
     pages: 504,
     description:
       "If you’ve ever spent hours renaming files or updating hundreds of spreadsheet cells, you know how tedious tasks like these can be. But what if you could have your computer do them for you? In Automate the Boring Stuff with Python, you’ll learn how to use Python to write programs that do in minutes what would take you hours to do by hand—no prior programming experience required. Once you’ve mastered the basics of programming, you’ll create Python programs that effortlessly perform useful and impressive feats of automation to",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 13,
+    category: "Java",
+    title: "Effective Java",
+    author: "Joshua Bloch",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=ka2VUBqHiWkC&printsec=frontcover&img=1&zoom=1&h=640",
+    link: "https://books.google.com.bd/books?id=ka2VUBqHiWkC&source=gbs_navlinks_s",
+    pages: 368,
+    description:
+      "The Definitive Guide to Java Platform Best Practices–Updated for Java 7, 8, and 9 Java has changed dramatically since the previous edition of Effective Java was published shortly after the release of Java 6.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    category: "Soft Skill",
+    title: "Soft Skills: The Software Developer's Life Manual",
+    author: "John Sonmez",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=W8XMzQEACAAJ&printsec=frontcover&img=1&zoom=1&h=640",
+    link: "https://books.google.com.bd/books/about/Soft_Skills.html?id=W8XMzQEACAAJ&source=kp_book_description&redir_esc=y",
+    pages: 502,
+    description:
+      "Mediocre To Great. Become The Best Software Developer You Can Be - Level Up Your Income, Relationships, Health and Mindset By Mastering Soft Skills. Success isn't a clear road for software developers. There's too much information and it can feel overwhelming. Many developers get stuck and have no idea what to do next.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 15,
+    category: "Programming",
+    title: "The Mythical Man-Month",
+    author: "Fred Brooks",
+    imageLink:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348430512l/13629.jpg",
+    link: "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month",
+    pages: 504,
+    description:
+      "Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive ",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 16,
+    category: "Java",
+    title: "Head First Java",
+    author: "Bert Bates and Kathy Sierra",
+    imageLink:
+      "https://books.google.com.bd/books?id=zWSMAgAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0",
+    link: "https://books.google.com.bd/books?id=zWSMAgAAQBAJ&source=gbs_navlinks_s",
+    pages: 504,
+    description:
+      "Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. You might think the problem is your brain. It seems to have a mind of its own, a mind that doesn't always want to take in the dry, technical stuff you're forced to study.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 17,
+    category: "Data Structure & Algorithms",
+    title: "Algorithms",
+    author: "Robert Sedgewick",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=idUdqdDXqnAC&printsec=frontcover&img=1&zoom=1&h=640",
+    link: "https://books.google.com.bd/books?id=idUdqdDXqnAC&source=gbs_navlinks_s",
+    pages: 990,
+    description:
+      "This fourth edition of Robert Sedgewick and Kevin Wayne’s Algorithms is the leading textbook on algorithms today and is widely used in colleges and universities worldwide. This book surveys the most important computer algorithms currently in use and provides a full treatment of data structures and algorithms for sorting, searching, graph processing, and string processing--including fifty algorithms every programmer should know. In this edition, new Java implementations are written in an accessible modular programming style, where all of the code is exposed to the reader and ready to use.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 18,
+    category: "JQuery",
+    title: "JavaScript and JQuery: Interactive Front-End Web Development",
+    author: "David Sawyer McFarland",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=dAJyxUtEZLMC&printsec=frontcover&img=1&zoom=1&h=640",
+    link: "https://books.google.com.bd/books?id=dAJyxUtEZLMC&source=gbs_navlinks_s",
+    pages: 538,
+    description:
+      "JavaScript lets you supercharge your HTML with animation, interactivity, and visual effects—but many web designers find the language hard to learn. This jargon-free guide covers JavaScript basics and shows you how to save time and effort with the jQuery library of prewritten JavaScript code. You’ll soon be building web pages that feel and act like desktop programs, without having to do much programming.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 19,
+    category: "Web Design",
+    title: "HTML & CSS: Design and Build Web Sites",
+    author: "Jon Duckett",
+    imageLink:
+      "https://books.google.com.bd/books/content?id=aGjaBTbT0o0C&printsec=frontcover&img=1&zoom=1&h=640",
+    link: "https://books.google.com.bd/books?id=aGjaBTbT0o0C&source=gbs_navlinks_s",
+    pages: 512,
+    description:
+      "Every day, more and more people want to learn some HTML and CSS. Joining the professional web designers and programmers are new audiences who need to know a little bit of code at work (update a content management system or e-commerce store) and those who want to make their personal blogs more attractive. Many books teaching HTML and CSS are dry and only written for those who want to become programmers, which is why this book takes an entirely new approach.",
+    reviews: [
+      {
+        name: "evanharmon - LibraryThing",
+        rating: 5,
+        review:
+          "Al Sweigart is a really great writer that takes the time and effort to be really clear and explanatory. There are lots of great ways to apply what you learn in this book to your everyday life which is really crucial to make what you learn stick. You can't go wrong with this book!",
+      },
+      {
+        name: "Ashley Prisacariu",
+        rating: 5,
+        review:
+          "I'm on Chapter 4 of the book, and it's been really helpful so far. I'm new to Python, although I have experience with other languages. Due to that experience, I thought I could jump right into Python with no problem, but the syntax tripped me up almost immediately. This book has clarified everything. Plus, it has questions and projects at the end of each chapter, so it gives you plenty of chances to practice what you've learned.",
+      },
+    ],
+  },
+
+  {
+    id: 20,
+    category: "Programming",
+    title:
+      "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    author: " Cory Althoff (Goodreads Author)",
+    imageLink:
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588831465l/51941365.jpg",
+    link: "https://www.goodreads.com/book/show/51941365-the-self-taught-programmer",
+    pages: 504,
+    description:
+      "I am a self-taught programmer. After a year of self-study, I learned to program well enough to land a job as a software engineer II at eBay. Once I got there, I realized I was severely under-prepared. I was overwhelmed by the amount of things I needed to know but hadn't learned yet. My journey learning to program, and my experience at my first job as a software engineer we",
     reviews: [
       {
         name: "evanharmon - LibraryThing",
