@@ -47,7 +47,7 @@ const HomeScreen = () => {
               <View style={style.categoryBtnImgCon}>
                 <Image
                   source={category.image}
-                  style={{height: 35, width: 35, resizeMode: 'cover'}}
+                  style={{height: 35, width: 35, borderRadius: 50, resizeMode: 'cover'}}
                 />
               </View>
               <Text
@@ -86,7 +86,7 @@ const HomeScreen = () => {
         </View>
         <Image
           source={require('../../assets/person.png')}
-          style={{height: 50, width: 50, borderRadius: 50 , borderRadius: 25}}
+          style={{height: 50, width: 50, borderRadius: 50}}
         />
       </View>
       <View
