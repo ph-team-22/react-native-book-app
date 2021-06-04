@@ -2,7 +2,6 @@ import React from 'react';
 import { SafeAreaProvider} from 'react-native-safe-area-context'
 import Home from './src/Screens/Home';
 import ReviewDetails from './src/Screens/ReviewDetails';
-import About from './src/Screens/About';
 import Welcome from './src/Screens/Welcome';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -59,22 +58,6 @@ export default function App() {
             headerTintColor: '#fff',
             headerTitleStyle: {
               fontWeight: 'bold',
-            },
-          }}
-          />
-          <Stack.Screen 
-          name="About" 
-          component={About} 
-          options={{
-            title: 'About',
-            headerTitleAlign: 'center',
-            headerStyle: {
-              backgroundColor: '#f4511e',
-            },
-            headerTintColor: '#fff',
-            headerTitleStyle: {
-              fontWeight: 'bold',
-              
             },
           }}
           />
