@@ -50,7 +50,7 @@ const BookDetails = () => {
     bookDetails;
   console.log(title, author, edition, description, imageLink, link, reviews);
   console.log(reviews[0].name);
-
+  console.log(" ");
   const handlePress = () => {};
   return (
     <View style={styles.container}>
