@@ -5,11 +5,10 @@ import { Appbar } from "react-native-paper";
 import DetailsScreen from "./src/Screens/DetailsScreen";
 import HomeScreen from "./src/Screens/HomeScreen";
 import Welcome from "./src/Screens/Welcome";
-
+//menu
 const MORE_ICON = "dots-horizontal";
 
 const Stack = createStackNavigator();
-
 function App() {
   return (
     <NavigationContainer>

@@ -1,12 +1,13 @@
 import React from "react";
 import { Button, Image, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-
+//Welcome page
 export default function Welcome({ navigation }) {
   return (
     <SafeAreaView>
       <View style={style.container}>
         <Text style={style.Text}>Book Library</Text>
+       
         <Image
           source={require("./../Assets/Book.png")}
           resizeMode="contain"
